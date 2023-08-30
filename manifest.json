@@ -1,6 +1,6 @@
 {
-  "name": "Chrome Extension MV3",
-  "description": "Learning all about Chrome Extensions Manifest Version 3!",
+  "name": "Jellyfin RPC",
+  "description": "Jellynfin RPC for Discord",
   "version": "0.1.0",
   "manifest_version": 3,
   "permissions": [
