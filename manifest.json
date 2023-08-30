@@ -1,0 +1,18 @@
+{
+  "name": "Chrome Extension MV3",
+  "description": "Learning all about Chrome Extensions Manifest Version 3!",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.media.uruk.dev/*"],
+      "js": ["inject.js"]
+    }
+  ]
+}
